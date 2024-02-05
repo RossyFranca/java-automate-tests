@@ -26,8 +26,11 @@ jobs:
         with:
           chromedriver-version: '102.0.5005.61'
 
+
+      - name: Limpar cache do Maven
+        run: mvn dependency:purge-local-repository
       - name: Instalar dependências
-        run: mvn install
+        run: mvn clean install
 
       - name: Executar testes
-        run: mvn test
+        run: mvn test -X
