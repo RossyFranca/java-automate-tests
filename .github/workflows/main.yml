@@ -22,9 +22,9 @@ jobs:
           cache: maven
 
       - name: Instalar Chrome
-        uses: actions/setup-chrome@v3
+        uses: nanasess/setup-chromedriver@v1
         with:
-          chrome-version: '121.0.6167.85'  
+          chrome-version: '102'
 
       - name: Instalar dependências
         run: mvn install
