@@ -26,6 +26,7 @@ public class DefaultPage {
         // visualmente ou não
         if (headless)
             options.addArguments("--headless");
+
         WebDriverManager.chromedriver().setup();
         this.driver = new ChromeDriver(options);
 
