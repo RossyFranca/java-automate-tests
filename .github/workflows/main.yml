@@ -24,7 +24,7 @@ jobs:
       - name: Instalar Chrome
         uses: nanasess/setup-chromedriver@v1
         with:
-          chrome-version: '102'
+          chrome-version: '102.0.5005.61'
 
       - name: Instalar dependências
         run: mvn install
