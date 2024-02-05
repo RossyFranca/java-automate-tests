@@ -1,4 +1,4 @@
-package stepDefinitions;
+package steps;
 
 import io.cucumber.java.pt.*;
 import pages.LoginPage;
