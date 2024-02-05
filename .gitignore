@@ -1,0 +1,34 @@
+# Arquivos gerados
+target/
+.idea/
+.classpath
+.project
+.settings/
+build.gradle
+local.properties
+
+# Arquivos de log
+*.log
+*.tmp
+*.pid
+
+# Arquivos de cache
+**/.gradle/
+**/.m2/
+
+# Arquivos específicos do Selenium
+**/webdriver-manager/
+**/selenium-server.log
+
+# Arquivos específicos do Cucumber
+**/.cucumber/
+**/reports/
+
+# Arquivos de teste
+**/src/test/java/**/*.class
+**/src/test/resources/
+
+# Outros arquivos
+*.iml
+*.iws
+*~
