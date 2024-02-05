@@ -30,4 +30,4 @@ jobs:
         run: mvn install
 
       - name: Executar testes
-        run: mvn clean test -e
+        run: mvn clean test -Dcucumber.features=src/test/resources/features -Dcucumber.steps=src/test/java/steps
