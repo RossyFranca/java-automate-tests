@@ -96,7 +96,7 @@
                     <property>
                         <name>cucumber.junit-platform.engine.properties</name>
                         <value>
-                            cucumber.features=src/test/resources/features cucumber.glue=src/test/java/steps </value>
+                            cucumber.features=src/test/resources/features cucumber.glue=src/test/java/stepDefinitions </value>
                     </property>
                 </properties>
             </configuration>
